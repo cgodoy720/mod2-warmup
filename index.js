@@ -21,7 +21,7 @@ const modules = ["Fundamentals", "FEWD", "React", "Full Stack Web Dev", "Data St
 
 
 
-// Will do something for each element in the array, whether you modify it or not
+// Will do something for each element in the array, but WILL NOT modify original array
 // forEach()
 modules.forEach((mod) => {
     console.log(mod)
