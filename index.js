@@ -50,8 +50,4 @@ modules.forEach((mod) => {
 // console.log(newModules)
 
 
-const button = document.querySelector('button')
 
-button.addEventListener('click', () => {
-    // do something when button is clicked
-})
