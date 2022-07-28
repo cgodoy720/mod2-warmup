@@ -1,3 +1,6 @@
+// ES6 Arrow functions
+const arrowFunc = () => {}
+
 // Comment each of the functions below to try them out. To get out of setInterval() press ^C (control + c)
 
 // setTimeout
@@ -21,7 +24,7 @@ const modules = ["Fundamentals", "FEWD", "React", "Full Stack Web Dev", "Data St
 
 
 
-// Will do something for each element in the array, but WILL NOT modify original array
+// Will do something for each element in the array. CAN modify original array
 // forEach()
 modules.forEach((mod) => {
     console.log(mod)
